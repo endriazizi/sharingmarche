@@ -5,6 +5,7 @@ $(document).ready(function(){
 
 function GetResult(){
     $.ajax({     
+        //endpoint
         url: 'https://content.guardianapis.com/travel?pages-size=10&order-by=newest&show-fields=all&api-key=41f2006c-b60b-4768-beb1-4340d264a7d8',
         type: 'GET',
         dataType: 'json',
